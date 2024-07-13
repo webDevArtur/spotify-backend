@@ -6,7 +6,7 @@ import { ObjectId } from 'mongoose';
 import { FileFieldsInterceptor } from '@nestjs/platform-express';
 
 
-@Controller('/tracks')
+@Controller('/')
 export class TrackController {
 
     constructor(private trackService: TrackService){}

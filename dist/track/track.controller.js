@@ -102,7 +102,7 @@ __decorate([
     __metadata("design:returntype", void 0)
 ], TrackController.prototype, "listen", null);
 exports.TrackController = TrackController = __decorate([
-    (0, common_1.Controller)('/tracks'),
+    (0, common_1.Controller)('/'),
     __metadata("design:paramtypes", [track_service_1.TrackService])
 ], TrackController);
 //# sourceMappingURL=track.controller.js.map
